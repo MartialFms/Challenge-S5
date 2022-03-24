@@ -32,6 +32,8 @@ public class Circle {
 	}
 
 	public void setRadius(double radius) {
+		if (radius< 0) radius = 1;
+		else this.radius= radius;
 		this.radius = radius;
 	}
 	
