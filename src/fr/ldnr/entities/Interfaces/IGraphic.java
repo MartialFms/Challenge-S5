@@ -1,5 +1,7 @@
 package fr.ldnr.entities.Interfaces;
 
+import java.util.HashMap;
+
 import fr.ldnr.entities.Shape;
 
 public interface IGraphic {
