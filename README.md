@@ -2,15 +2,15 @@
 
 ## **Features**  
 ---
-- [ ] :tada: Mise en place d'une *interface*
-- [ ] :tada: Mise en place de la classe qui implémente *l'interface*
-- [ ] :tada: Mise en place de la classe mère **Shape**
-- [ ] :tada: Mise en place de la classe fille **Circle**
-- [ ] :tada: Mise en place de la classe fille **Square**
-- [ ] :tada: Mise ne place de la classe fille **Rectangle**
-- [ ] :tada: Mise en place de la classe servant au dessin des formes avec la classe **Graphic**
-- [ ] :bug: Correction des problèmes
-- [ ] :sparkles: Test de l'application
+- [x] :tada: Mise en place d'une *interface*
+- [x] :tada: Mise en place de la classe qui implémente *l'interface*
+- [x] :tada: Mise en place de la classe mère **Shape**
+- [x] :tada: Mise en place de la classe fille **Circle**
+- [x] :tada: Mise en place de la classe fille **Square**
+- [x] :tada: Mise ne place de la classe fille **Rectangle**
+- [x] :tada: Mise en place de la classe servant au dessin des formes avec la classe **Graphic**
+- [x] :bug: Correction des problèmes
+- [x] :sparkles: Test de l'application
 
 ---
 
