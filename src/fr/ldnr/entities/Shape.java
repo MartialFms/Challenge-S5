@@ -1,10 +1,18 @@
 package fr.ldnr.entities;
 
+import java.awt.Point;
+
 public class Shape {
+	private Point centerPoint;
+	
+	public Shape(int x, int y) {
+		this.centerPoint = new Point(centerPoint.getX(),centerPoint.getY());
+		
+	}
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+	@Override
+	public String toString() {
+		return "Shape [center = "+center+"]";
 	}
 
 }
