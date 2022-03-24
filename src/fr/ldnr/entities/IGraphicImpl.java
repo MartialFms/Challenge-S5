@@ -30,8 +30,8 @@ public class IGraphicImpl implements IGraphic {
 	@Override
 	public void moveShape(int id, int x, int y) {
 		Shape shape = shapes.get(id);
-		shape.getCenter().setX();
-		shape.getCenter().setY();
+		shape.setCenter(new Point(x, y));
+	
 	}
 
 	@Override

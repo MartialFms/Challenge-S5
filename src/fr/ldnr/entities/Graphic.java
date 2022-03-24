@@ -5,7 +5,7 @@
  * 
  */
 
-package fr.fms.graphic;
+package fr.ldnr.entities;
 
 import java.awt.Color;
 import java.awt.GradientPaint;

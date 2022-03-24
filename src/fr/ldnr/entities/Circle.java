@@ -6,7 +6,12 @@ public class Circle extends Shape {
     public Circle(double radius, int x, int y) {
     super (x,y);
     setRadius(radius);
-}
+    }
+    
+    public Circle(double radius, Point point) {
+    	super(point);
+    	setRadius(radius);
+    }
 
 	public Circle() {
 		super(1,1);

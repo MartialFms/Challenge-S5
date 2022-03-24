@@ -23,7 +23,6 @@ public class TestShapes {
 			objects.add(s1);
 			objects.add(c2);
 			objects.add(p);
-			objects.add(new Shape(2,3));
 			for(Object o : objects) {
 				if(o instanceof Point) System.out.println("Point ");
 				System.out.println(o);	
