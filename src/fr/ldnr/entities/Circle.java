@@ -1,6 +1,6 @@
 package fr.ldnr.entities;
 
-public class Circle {
+public class Circle extends Shape {
     private int x;
     private int y;
     private double radius;
