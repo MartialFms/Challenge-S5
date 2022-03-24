@@ -1,14 +1,16 @@
 package fr.ldnr.entities;
 
+import java.awt.Graphics;
+
 public class Circle extends Shape {
-    private double radius;
+    private int radius;
     
-    public Circle(double radius, int x, int y) {
+    public Circle(int radius, int x, int y) {
     super (x,y);
     setRadius(radius);
     }
     
-    public Circle(double radius, Point point) {
+    public Circle(int radius, Point point) {
     	super(point);
     	setRadius(radius);
     }
@@ -22,11 +24,11 @@ public class Circle extends Shape {
 		return Math.PI * this.radius * this.radius;
 	}
 	
-	public double getRadius() {
+	public int getRadius() {
 		return radius;
 	}
 
-	public void setRadius(double radius) {
+	public void setRadius(int radius) {
 		if (radius<0) radius = 1;
 		else
 		this.radius = radius;
@@ -34,5 +36,13 @@ public class Circle extends Shape {
 	public String toString () {
 		return "Circle : radius = " + radius + " " + super.toString();
 	}
+
+	
+	@Override
+	public void draw(Graphics g) {
+		//dessine cercles
+		g.fillOval(this.getCenter().getX(), this.getCenter().getY(),this.getRadius() * 2, this.getRadius() * 2);
+	}
+
 }
 

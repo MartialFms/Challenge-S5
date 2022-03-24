@@ -1,5 +1,6 @@
 package fr.ldnr.entities;
 
+import java.awt.Graphics;
 import java.util.HashMap;
 import java.util.Map.Entry;
 
@@ -36,15 +37,10 @@ public class IGraphicImpl implements IGraphic {
 	}
 
 	@Override
-	public void drawShape() {
+	public void drawShape(Graphics g) {
 		for(Entry<Integer, Shape> entry: shapes.entrySet()) {
-			if(entry.getValue() instanceof Square) {
-				// Méthode pour dessiner un carré
-			} else if (entry.getValue() instanceof Circle) {
-				// Méthode pour dessiner un rond
-			} else {
-				System.out.println("Désolé la forme n'est pas pris en charge");
-			}
+			
+			entry.getValue().draw(g);
 		}
 	}
 
