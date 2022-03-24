@@ -1,7 +1,7 @@
 package fr.ldnr.entities;
 
 
-public class Shape {
+public abstract  class Shape {
 	private Point center;
 	
 	public Shape(int x, int y) {
