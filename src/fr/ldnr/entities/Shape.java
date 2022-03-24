@@ -25,7 +25,7 @@ public abstract  class Shape {
 
 	@Override
 	public String toString() {
-		return "Shape [center = "+center+"]";
+		return "Shape [ center = " + "x : " +  center.getX() + "y : " + center.getY() + " ]";
 	}
 
 }
